@@ -1,0 +1,41 @@
+"--pred_len", type=int, default=336
+"--MLP_hidden_dim", type=int, default=256, help="MLP hidden dim")
+"--emb_dim", type=int, default=256, help="emb dim")
+
+MSE Loss: 0.900799, MAE Loss: 0.668226
+
+train
+Epoch 1: MSE Loss: 1.088631, MAE Loss: 0.736831 | Speed: 15.75 it/s
+Epoch 2: MSE Loss: 1.066027, MAE Loss: 0.724723 | Speed: 16.29 it/s
+Epoch 74: MSE Loss: 1.048400, MAE Loss: 0.716695 | Speed: 14.35 it/s
+Epoch 75: MSE Loss: 1.048307, MAE Loss: 0.716823 | Speed: 14.39 it/s
+val
+Epoch 74: MSE Loss: 0.794207, MAE Loss: 0.630641 | Speed: 2.54 it/s
+Epoch 75: MSE Loss: 0.794810, MAE Loss: 0.629783 | Speed: 2.59 it/s
+
+"--pred_len", type=int, default=720
+"--MLP_hidden_dim", type=int, default=256, help="MLP hidden dim")
+"--emb_dim", type=int, default=256, help="emb dim")
+MSE Loss: 0.966288, MAE Loss: 0.698708
+
+
+METR-LA
+"--pred_len", type=int, default=96, help="predicted sequence length")
+"--MLP_hidden_dim", type=int, default=512, help="MLP hidden dim")
+"--emb_dim", type=int, default=256, help="emb dim")
+MSE Loss: 1.254996, MAE Loss: 0.678682
+
+"--pred_len", type=int, default=192, help="predicted sequence length")
+"--MLP_hidden_dim", type=int, default=512, help="MLP hidden dim")
+"--emb_dim", type=int, default=256, help="emb dim")
+MSE Loss: 1.441019, MAE Loss: 0.748556
+
+"--pred_len", type=int, default=336, help="predicted sequence length")
+"--MLP_hidden_dim", type=int, default=512, help="MLP hidden dim")
+"--emb_dim", type=int, default=256, help="emb dim")
+MSE Loss: 1.479532, MAE Loss: 0.749519
+
+"--pred_len", type=int, default=720, help="predicted sequence length")
+"--MLP_hidden_dim", type=int, default=512, help="MLP hidden dim")
+"--emb_dim", type=int, default=256, help="emb dim")
+MSE Loss: 1.780525, MAE Loss: 0.842022
